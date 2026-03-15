@@ -8,3 +8,4 @@
 #### Day 5 - Blurry Loading
 #### Day 6 - Scroll Animation
 #### Day 7 - Split Landing Page
+#### Day 8 - Form Wave Animation
