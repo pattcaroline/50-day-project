@@ -2,16 +2,17 @@
 50-day-project is focus on improving HTML, CSS and JavaScript through various daily projects.
 
 
-|# | Project | Live Demo |
+| # | Project | Live Demo |
+|---|---------|------------|
 | 1 | Expanding Cards | [https://pattcaroline.github.io/50-day-project/day1/index.html](url) |
 | 2 | Progress Steps | [https://pattcaroline.github.io/50-day-project/day2/index.html](url) |
 | 3 | Rotating Navigation | [https://pattcaroline.github.io/50-day-project/day3/index.html](url) |
 | 4 | Hidden Search Widget | [https://pattcaroline.github.io/50-day-project/day4/index.html](url) |
-#### Day 5 - Blurry Loading
-#### Day 6 - Scroll Animation
-#### Day 7 - Split Landing Page
-#### Day 8 - Form Wave Animation
-#### Day 9 - Sound Board
-#### Day 10 - Dad Jokes
-#### Day 11 - Event KeyCodes
+| 5 | Blurry Loading | [https://pattcaroline.github.io/50-day-project/day5/index.html](url) |
+| 6 | Scroll Animation | [https://pattcaroline.github.io/50-day-project/day6/index.html](url) |
+| 7 | Split Landing Page | [https://pattcaroline.github.io/50-day-project/day7/index.html](url) | 
+| 8 | Form Wave Animation | [https://pattcaroline.github.io/50-day-project/day8/index.html#](url) |
+| 9 | Sound Board | [https://pattcaroline.github.io/50-day-project/day9/index.html](url) |
+| 10 | Dad Jokes | [https://pattcaroline.github.io/50-day-project/day10/index.html](url) |
+| 11 | Event KeyCodes | [https://pattcaroline.github.io/50-day-project/day11/index.html](url) | 
 
