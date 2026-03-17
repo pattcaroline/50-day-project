@@ -1,22 +1,22 @@
-const sounds = ["applause", "boo", "gasp", "tada", "victory", "wrong"];
+const boxes = document.querySelectorAll(".box");
 
-sounds.forEach((sound) => {
-  const btn = document.createElement("button");
-  btn.classList.add("btn");
-  btn.innerText = sound;
+window.addEventListener("scroll", checkBoxes);
 
-  btn.addEventListener("click", () => {
-    stopSongs();
-    document.getElementById(sound).play();
-  });
+checkBoxes();
 
-  document.getElementById("buttons").appendChild(btn);
-});
+function checkBoxes() {
+  //Finding the height of the window so we can calculate the trigger point for the next boxes to show up
+  const triggerBottom = (window.innerHeight / 5) * 4;
 
-function stopSongs() {
-  sounds.forEach((sound) => {
-    const song = document.getElementById(sound);
-    song.pause();
-    song.currentTime = 0;
+  boxes.forEach((box) => {
+    //method in JavaScript returns a DOMRect object that provides the size and position of an element relative to the browser's viewport (the visible part of the window)
+    //top: Distance from the top of the viewport to the top edge of the element.
+    const boxTop = box.getBoundingClientRect().top;
+
+    if (boxTop < triggerBottom) {
+      box.classList.add("show");
+    } else {
+      box.classList.remove("show");
+    }
   });
 }
