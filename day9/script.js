@@ -1,22 +1,25 @@
-const boxes = document.querySelectorAll(".box");
+const sounds = ["applause", "boo", "gasp", "tada", "victory", "wrong"];
 
-window.addEventListener("scroll", checkBoxes);
+sounds.forEach((sound) => {
+  // for each element inside sounds => create a btn and add class 'btn'
+  // add the inner text to same name as each element inside sounds (sound)
+  const btn = document.createElement("button");
+  btn.classList.add("btn");
+  btn.innerText = sound;
 
-checkBoxes();
+  // On click, stop music (avoid sounds overlaping each other) then play sound
+  btn.addEventListener("click", () => {
+    stopSongs();
+    document.getElementById(sound).play();
+  });
 
-function checkBoxes() {
-  //Finding the height of the window so we can calculate the trigger point for the next boxes to show up
-  const triggerBottom = (window.innerHeight / 5) * 4;
+  document.getElementById("buttons").appendChild(btn);
+});
 
-  boxes.forEach((box) => {
-    //method in JavaScript returns a DOMRect object that provides the size and position of an element relative to the browser's viewport (the visible part of the window)
-    //top: Distance from the top of the viewport to the top edge of the element.
-    const boxTop = box.getBoundingClientRect().top;
-
-    if (boxTop < triggerBottom) {
-      box.classList.add("show");
-    } else {
-      box.classList.remove("show");
-    }
+function stopSongs() {
+  sounds.forEach((sound) => {
+    const song = document.getElementById(sound);
+    song.pause();
+    song.currentTime = 0; //plays sound from the start
   });
 }
