@@ -15,4 +15,5 @@
 | 9 | Sound Board | [https://pattcaroline.github.io/50-day-project/day9/index.html](url) |
 | 10 | Dad Jokes | [https://pattcaroline.github.io/50-day-project/day10/index.html](url) |
 | 11 | Event KeyCodes | [https://pattcaroline.github.io/50-day-project/day11/index.html](url) | 
-| 12 | FAQ - Collapse | [#](url)
+| 12 | FAQ - Collapse | [https://pattcaroline.github.io/50-day-project/day12/index.html](url) |
+| 13 | Random Choice Picker | [#](url)
