@@ -17,3 +17,4 @@
 | 11 | Event KeyCodes | [https://pattcaroline.github.io/50-day-project/day11/index.html](url) | 
 | 12 | FAQ - Collapse | [https://pattcaroline.github.io/50-day-project/day12/index.html](url) |
 | 13 | Random Choice Picker | [https://pattcaroline.github.io/50-day-project/day13/index.html](url)
+| 14 | Animated Navigation | [https://pattcaroline.github.io/50-day-project/day14/index.html](url)
