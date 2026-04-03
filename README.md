@@ -18,5 +18,6 @@
 | 12 | [FAQ - Collapse](https://pattcaroline.github.io/50-day-project/day12/index.html)
 | 13 | [Random Choice Picker](https://pattcaroline.github.io/50-day-project/day13/index.html)
 | 14 | [Animated Navigation](https://pattcaroline.github.io/50-day-project/day14/index.html)
-| 15 | [Incrementing Counter](#)
+| 15 | [Incrementing Counter](https://pattcaroline.github.io/50-day-project/day15/index.html)
+| 16 | [Drink Water](https://pattcaroline.github.io/50-day-project/day16/index.html)
 
