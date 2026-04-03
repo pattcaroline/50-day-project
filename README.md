@@ -18,5 +18,5 @@
 | 12 | FAQ - Collapse | [https://pattcaroline.github.io/50-day-project/day12/index.html](url) |
 | 13 | Random Choice Picker | [https://pattcaroline.github.io/50-day-project/day13/index.html](url)
 | 14 | Animated Navigation | [https://pattcaroline.github.io/50-day-project/day14/index.html](url)
-| 15 | Incrementing Counter | [Animated Nav](https://pattcaroline.github.io/50-day-project/day14/index.html){:target="_blank"}
+| 15 | Incrementing Counter | [Animated Nav](https://pattcaroline.github.io/50-day-project/day14/index.html)
 
