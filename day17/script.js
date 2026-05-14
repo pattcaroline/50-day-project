@@ -15,18 +15,23 @@ async function getMovies(url) {
   const res = await fetch(url);
   const data = await res.json();
 
+  //Pass data results to function that will get the info and add to HTML
   showMovies(data.results);
 }
 
 function showMovies(movies) {
+  // Clear innerHTML and Loop through data
   main.innerHTML = "";
 
   movies.forEach((movie) => {
+    // Destructure to get title, vote average etc from movie (element inside the movies array)
     const { title, poster_path, vote_average, overview } = movie;
 
+    //Create a div and add class .movie
     const movieEl = document.createElement("div");
     movieEl.classList.add("movie");
 
+    //Add each movie info inside HTML
     movieEl.innerHTML = `
         <img src="${IMG_PATH + poster_path}" alt="${title}" />
         <div class="movie-info">
@@ -39,10 +44,12 @@ function showMovies(movies) {
         </div>
       `;
 
+    //Append each movie created above inside the main tag in the HTML
     main.appendChild(movieEl);
   });
 }
 
+// Get the vote number and add class color
 function getClassByRate(vote) {
   if (vote >= 8) {
     return "green";
