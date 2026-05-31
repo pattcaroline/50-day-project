@@ -30,7 +30,7 @@ const months = [
   "Dec",
 ];
 
-// Toggle dark mode - ADD class to HTML element
+// Toggle dark mode -> ADD class to HTML element
 toggleEl.addEventListener("click", (e) => {
   const html = document.querySelector("html");
 
@@ -48,20 +48,23 @@ function setTime() {
   const month = time.getMonth();
   const day = time.getDay();
   const date = time.getDate();
-  const hours = time.getHours();
-  const hoursForClock = hours % 12;
+  const hours = time.getHours(); // Hours military style 24 hours
+  const hoursForClock = hours % 12; // Clock has to show 12 hours max with AM or PM
   const minutes = time.getMinutes();
   const seconds = time.getSeconds();
   const ampm = hours >= 12 ? "PM" : "AM";
 
+  // Change the degree of the current hour, minute and second poiter according to the current time
   hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(hoursForClock, 0, 12, 0, 360)}deg)`;
   minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 60, 0, 360)}deg)`;
   secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 60, 0, 360)}deg)`;
 
+  // Change inner HTML to show the current time
   timeEl.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`;
   dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`;
 }
 
+// Needed to map a set of number (hour, min, second) based on the 360 clock degree position
 // StackOverflow https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
