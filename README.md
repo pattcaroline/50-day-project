@@ -21,4 +21,7 @@
 | 15 | [Incrementing Counter](https://pattcaroline.github.io/50-day-project/day15/index.html)
 | 16 | [Drink Water](https://pattcaroline.github.io/50-day-project/day16/index.html)
 | 17 | [Movie App](https://pattcaroline.github.io/50-day-project/day17/index.html)
+| 18 | [Background Slider](https://pattcaroline.github.io/50-day-project/day18/index.html)
+| 19 | [Theme Clock](https://pattcaroline.github.io/50-day-project/day19/index.html)
+
 
