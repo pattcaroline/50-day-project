@@ -24,5 +24,7 @@
 | 18 | [Background Slider](https://pattcaroline.github.io/50-day-project/day18/index.html)
 | 19 | [Theme Clock](https://pattcaroline.github.io/50-day-project/day19/index.html)
 | 20 | [Button Ripple Effect](https://pattcaroline.github.io/50-day-project/day20/index.html)
+| 21 | [Drag and Drop](https://pattcaroline.github.io/50-day-project/day21/index.html)
+| 22 | [Drawing App](https://pattcaroline.github.io/50-day-project/day22/index.html)
 
 
