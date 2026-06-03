@@ -26,5 +26,7 @@
 | 20 | [Button Ripple Effect](https://pattcaroline.github.io/50-day-project/day20/index.html)
 | 21 | [Drag and Drop](https://pattcaroline.github.io/50-day-project/day21/index.html)
 | 22 | [Drawing App](https://pattcaroline.github.io/50-day-project/day22/index.html)
+| 23 | [Kinetic Loader](https://pattcaroline.github.io/50-day-project/day23/index.html)
+| 24 | [Content Placeholder](https://pattcaroline.github.io/50-day-project/day24/index.html)
 
 
