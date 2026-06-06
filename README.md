@@ -28,5 +28,6 @@
 | 22 | [Drawing App](https://pattcaroline.github.io/50-day-project/day22/index.html)
 | 23 | [Kinetic Loader](https://pattcaroline.github.io/50-day-project/day23/index.html)
 | 24 | [Content Placeholder](https://pattcaroline.github.io/50-day-project/day24/index.html)
+| 25 | [Sticky Navbar](https://pattcaroline.github.io/50-day-project/day25/index.html)
 
 
