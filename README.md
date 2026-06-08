@@ -31,5 +31,6 @@
 | 25 | [Sticky Navbar](https://pattcaroline.github.io/50-day-project/day25/index.html)
 | 26 | [Double Vertical Slider](https://pattcaroline.github.io/50-day-project/day26/index.html)
 | 27 | [Toast Notification](https://pattcaroline.github.io/50-day-project/day27/index.html)
+| 28 | [Github Profile](https://pattcaroline.github.io/50-day-project/day28/index.html)
 
 
