@@ -20,17 +20,17 @@ async function getUser(username) {
 async function getRepos(username) {
   try {
     const { data } = await axios(APIURL + username + "/repos?sort=created");
+    console.log(data);
 
     addReposToCard(data);
   } catch (err) {
-    if (err.response.status == 404)
-      createErrorCard("Problem fetching repositories");
+    createErrorCard("Problem fetching repositories");
   }
 }
 
 function createUserCard(user) {
   const userID = user.name || user.login;
-  const userBio = user.bio ? `<p>${user.bio}` : "";
+  const userBio = user.bio ? `<p>${user.bio}</p>` : "";
   const cardHTML = `
     <div class="card">
         <div>
@@ -45,12 +45,12 @@ function createUserCard(user) {
           ${userBio}
 
           <ul>
-            <li>${user.followers}&nbsp;<strong>Followers</strong></li>
-            <li>${user.following}&nbsp;<strong>Following</strong></li>
-            <li>${user.public_repos}&nbsp;<strong>Repos</strong></li>
+            <li>${user.followers}&nbsp;<strong>Followers</strong>&nbsp;</li>
+            <li>${user.following}&nbsp;<strong>Following</strong>&nbsp;</li>
+            <li>${user.public_repos}&nbsp;<strong>Repos</strong>&nbsp;</li>
           </ul>
 
-          <div class="repos"></div>
+          <div id="repos"></div>
         </div>
       </div>
   `;
@@ -69,7 +69,7 @@ function createErrorCard(msg) {
 }
 
 function addReposToCard(repos) {
-  const reposEl = document.querySelector(".repos");
+  const reposEl = document.getElementById("repos");
 
   repos.slice(0, 5).forEach((repo) => {
     const repoEl = document.createElement("a");
@@ -80,6 +80,8 @@ function addReposToCard(repos) {
 
     reposEl.appendChild(repoEl);
   });
+  console.log(reposEl);
+  console.log(repos.data);
 }
 
 form.addEventListener("submit", (e) => {
