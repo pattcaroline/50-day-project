@@ -19,11 +19,12 @@ async function getUser(username) {
 
 async function getRepos(username) {
   try {
-    const { data } = await acios(APIURL + username + "/repos?sort=created");
+    const { data } = await axios(APIURL + username + "/repos?sort=created");
 
     addReposToCard(data);
   } catch (err) {
-    createErrorCard("Problem fetching repositories");
+    if (err.response.status == 404)
+      createErrorCard("Problem fetching repositories");
   }
 }
 
