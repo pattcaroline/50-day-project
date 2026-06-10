@@ -69,7 +69,7 @@ function createErrorCard(msg) {
 }
 
 function addReposToCard(repos) {
-  const reposEl = document.getElementById("repos");
+  const reposEl = document.querySelector(".repos");
 
   repos.slice(0, 5).forEach((repo) => {
     const repoEl = document.createElement("a");
