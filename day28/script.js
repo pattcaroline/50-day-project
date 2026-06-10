@@ -4,6 +4,7 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
+// Getting user data from Axios. Passing argument to createUserCard with data and getRepos only with username
 async function getUser(username) {
   try {
     const { data } = await axios(APIURL + username);
@@ -17,6 +18,7 @@ async function getUser(username) {
   }
 }
 
+// Getting repositories info sorted by the lasted repos and passing it to addReposToCard
 async function getRepos(username) {
   try {
     const { data } = await axios(APIURL + username + "/repos?sort=created");
@@ -27,6 +29,8 @@ async function getRepos(username) {
     createErrorCard("Problem fetching repositories");
   }
 }
+
+// Passing all the info to the HTML
 
 function createUserCard(user) {
   const userID = user.name || user.login;
@@ -58,16 +62,7 @@ function createUserCard(user) {
   main.innerHTML = cardHTML;
 }
 
-function createErrorCard(msg) {
-  const cardHTML = `
-    <div class="card">
-      <h1>${msg}</h1>
-    </div>
-  `;
-
-  main.innerHTML = cardHTML;
-}
-
+// Adding repositorie information to HTML
 function addReposToCard(repos) {
   const reposEl = document.getElementById("repos");
 
@@ -84,6 +79,18 @@ function addReposToCard(repos) {
   console.log(repos.data);
 }
 
+// Standard error card
+function createErrorCard(msg) {
+  const cardHTML = `
+    <div class="card">
+      <h1>${msg}</h1>
+    </div>
+  `;
+
+  main.innerHTML = cardHTML;
+}
+
+// Event Listener only on SUBMIT
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
