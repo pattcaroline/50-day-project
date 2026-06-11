@@ -34,5 +34,6 @@
 | 28 | [Github Profile](https://pattcaroline.github.io/50-day-project/day28/index.html)
 | 29 | [Double Heart Click](https://pattcaroline.github.io/50-day-project/day29/index.html)
 | 30 | [Auto Text Effect](https://pattcaroline.github.io/50-day-project/day30/index.html)
+| 31 | [Password Generator](https://pattcaroline.github.io/50-day-project/day31/index.html)
 
 
