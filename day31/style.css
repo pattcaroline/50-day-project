@@ -67,6 +67,11 @@ h2 {
   font-size: 16px;
   padding: 8px 12px;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:active {
+  transform: scale(0.94);
 }
 
 .btn-large {
