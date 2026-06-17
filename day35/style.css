@@ -19,6 +19,7 @@ body {
   height: 529px;
   width: 500px;
   overflow: hidden;
+  position: relative;
 }
 
 .image-container {
