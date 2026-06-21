@@ -42,5 +42,6 @@
 | 36 | [Hoverboard](https://pattcaroline.github.io/50-day-project/day36/index.html)
 | 37 | [Pokedex](https://pattcaroline.github.io/50-day-project/day37/index.html)
 | 38 | [Mobile Tab Navigation](https://pattcaroline.github.io/50-day-project/day38/index.html)
+| 39 | [Password Strength Background](https://pattcaroline.github.io/50-day-project/day39/index.html)
 
 
