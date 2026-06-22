@@ -45,5 +45,6 @@
 | 38 | [Mobile Tab Navigation](https://pattcaroline.github.io/50-day-project/day38/index.html)
 | 39 | [Password Strength Background](https://pattcaroline.github.io/50-day-project/day39/index.html)
 | 40 | [3D Background Boxes](https://pattcaroline.github.io/50-day-project/day40/index.html)
+| 41 | [Verify Account UI](https://pattcaroline.github.io/50-day-project/day41/index.html)
 
 
