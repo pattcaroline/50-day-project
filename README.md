@@ -4,6 +4,7 @@
 
 | # | Project |
 |---|---------|
+| 00 | [Pokemon Search](https://pattcaroline.github.io/50-day-project/day00-pokemon/index.html)
 | 1 | [Expanding Cards](https://pattcaroline.github.io/50-day-project/day1/index.html)
 | 2 | [Progress Steps](https://pattcaroline.github.io/50-day-project/day2/index.html)
 | 3 | [Rotating Navigation](https://pattcaroline.github.io/50-day-project/day3/index.html)
@@ -43,5 +44,6 @@
 | 37 | [Pokedex](https://pattcaroline.github.io/50-day-project/day37/index.html)
 | 38 | [Mobile Tab Navigation](https://pattcaroline.github.io/50-day-project/day38/index.html)
 | 39 | [Password Strength Background](https://pattcaroline.github.io/50-day-project/day39/index.html)
+| 40 | [3D Background Boxes](https://pattcaroline.github.io/50-day-project/day40/index.html)
 
 
