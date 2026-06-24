@@ -48,5 +48,6 @@
 | 41 | [Verify Account UI](https://pattcaroline.github.io/50-day-project/day41/index.html)
 | 42 | [Live User Filter](https://pattcaroline.github.io/50-day-project/day42/index.html)
 | 43 | [Feedback UI Design](https://pattcaroline.github.io/50-day-project/day43/index.html)
+| 44 | [Custom Range Slider](https://pattcaroline.github.io/50-day-project/day44/index.html)
 
 
