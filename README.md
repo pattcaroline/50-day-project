@@ -49,5 +49,6 @@
 | 42 | [Live User Filter](https://pattcaroline.github.io/50-day-project/day42/index.html)
 | 43 | [Feedback UI Design](https://pattcaroline.github.io/50-day-project/day43/index.html)
 | 44 | [Custom Range Slider](https://pattcaroline.github.io/50-day-project/day44/index.html)
+| 45 | [Netflix Mobile Navigation](https://pattcaroline.github.io/50-day-project/day45/index.html)
 
 
